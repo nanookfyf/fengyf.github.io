@@ -13,7 +13,7 @@
 
 
 
-<title>Diary | nanookfyf&#39;s Blog</title>
+<title>随机过程 | nanookfyf&#39;s Blog</title>
 
 
 
@@ -40,6 +40,45 @@
 
     
     
+        
+            <!-- MathJax配置，可通过单美元符号书写行内公式等 -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    "HTML-CSS": {
+        preferredFont: "TeX",
+        availableFonts: ["STIX","TeX"],
+        linebreaks: { automatic:true },
+        EqnChunk: (MathJax.Hub.Browser.isMobile ? 10 : 50)
+    },
+    tex2jax: {
+        inlineMath: [ ["$", "$"], ["\\(","\\)"] ],
+        processEscapes: true,
+        ignoreClass: "tex2jax_ignore|dno",
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    },
+    TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } },
+        Macros: { href: "{}" }
+    },
+    messageStyle: "none"
+    });
+</script>
+<!-- 给MathJax元素添加has-jax class -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<!-- 通过连接CDN加载MathJax的js代码 -->
+<script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
         
     
 
@@ -196,21 +235,21 @@
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">Diary</h1>
+            <h1 class="post-title">随机过程</h1>
             
                 <div class="post-meta">
                     
 
                     
                         <span class="post-time">
-                        Date: <a href="#">July 29, 2024&nbsp;&nbsp;3:50:45</a>
+                        Date: <a href="#">July 29, 2024&nbsp;&nbsp;16:50:37</a>
                         </span>
                     
                     
                         <span class="post-category">
                     Category:
                             
-                                <a href="/categories/diary/">diary</a>
+                                <a href="/categories/math/">math</a>
                             
                         </span>
                     
@@ -219,30 +258,33 @@
         </header>
 
         <div class="post-content">
-            <h2 id="2024-7-25"><a href="#2024-7-25" class="headerlink" title="2024&#x2F;7&#x2F;25"></a>2024&#x2F;7&#x2F;25</h2><p>​	靠回忆来写，于7.27的凌晨</p>
-<p>​	早上起来，大概是看了二十个单词就骑车去找xwf吃饭了，是去的那家料理。</p>
-<p>​	作为老朋友已经许久未见了，但我似乎对朋友长时间没见并没有什么特别的感觉。聊了一下境况，分享了一下我最近的面试经历，他也分享了一下他夏令营成功上岸的事迹，他在我心中一直属于一个积极的人，我觉得上岸什么的也挺自然，所以也没什么内心波动…..大家吃完后便去看电影，沈腾马丽演的，名字我忘了，反正还是挺有趣的，作为一个“屌丝逆袭”型选手，我看到这个电影，也还是有一点感触的。</p>
-<p>​	看完后就去打了两个小时的xbox，生化危机，游戏体验不错。但是可能是我眼睛不能适应游戏快速的视觉特效的缘故或是身体不能适应逼仄的房间的原因，出来的时候总觉得很难受，需要走很多圈才能适应回来。</p>
-<p>​	在逛街的时候，和xwf聊到对象的事情，他竟然告诉我他出柜了，我还是相当差异的，而且他还告诉他目前正在谈一个男朋友，而且他还说这件事情他高中就意识到了，而且他高中就告诉父母了。。。。啊，我tm怎么才知道。好吧，真的是挺惊讶的，不过我对此并没什么看法，不过仔细一想他好像真的对美色没什么欲望，那么这样的事实也有迹可循..不多说了</p>
-<p>​	然后我们去一家名叫绿茶餐厅的地方吃晚饭，也是聊了很多，主要的一点就是保持自我。让【我很我】实现，也是一件有挑战的事情捏。饭后，散步，他打车回学校，我tm发现我衣服落饭店了，又回去拿了衣服，然后回了学校…</p>
-<p>​	刷手机，睡觉，大概睡着也快三点了…</p>
-<h2 id="2024-7-26"><a href="#2024-7-26" class="headerlink" title="2024&#x2F;7&#x2F;26"></a>2024&#x2F;7&#x2F;26</h2><p>​	不，其实我想写的是7.26号的日记。又在熬夜了….</p>
-<p>​	今天（7.26）早晨起来（其实已经快中午了），打开手机，回答了一下学妹dys的问题，有关开学实验班转专业的事情，她被录取到了同济临床，但是她似乎对数学有一种执念，很想学数学…挺令人诧异的，或许是我太片面了。</p>
-<p>​	然后被jpx push去写卷积算子，其实自己已经摸鱼很久了，马上比赛要截止，但就是提不起劲，一直没怎么work，不过今早还算是“高效地”做了两个小时左右的这个事情吧，然后去吃饭….</p>
-<p>​	说实话，那家饭店已经去了好多次了，以至老板看我的眼神都变得有些异样了….</p>
-<p>​	回来后，大概是躺了会儿，听了会儿歌，便下来做那个比赛PPT了…..不过今天确实发现了一个纯音宝藏，以至于很久没有放松的身心在听到那几首纯音时也有了些许释然。</p>
-<p>​	然后又去了那家店…..</p>
-<p>​	回来后，又躺床，听歌刷手机，无所事事….</p>
-<p>​	以至现在，本想读一下马上要汇报的论文，可惜实在不想做，写起了日记。</p>
-<h2 id="2024-7-27"><a href="#2024-7-27" class="headerlink" title="2024&#x2F;7&#x2F;27"></a>2024&#x2F;7&#x2F;27</h2><p>​	0：00—1：00，写之前的日记，难绷</p>
-<p>​	一会儿上床还是想看会儿手机，怎么感觉最近意志越来愈低迷了。那个燧石的实习还是鸽了吧，回家放松一段时间，准备准备雅思什么的…….</p>
-<p>​	算了，上床！（不过希望这个日记还是可以一直写下去的.）</p>
-<p>​	呃，21：58开始写写今天的日记：</p>
-<p>​	早上一睁眼就是十一点，看了四十个单词，就开始看一些导师。。。。不知道为什么看，可能最近总想着之后该怎么去哪的缘故吧，我好像自小就总喜欢想一些以后的事情，行动却总是跟不太上。吃饭，回宿舍，看论文，拜占庭，乐。看到五点多，和jpx聊了聊他那边的进展，他还是很猛的，我有点躺的嫌疑，鉴于此打开ppt水了水。然后开会，似乎说的不错，学长蛮认可。。。我好像很会包装？不管了，吃饭。然后计划看看winograd以及乱七八糟的吧，放松一下。</p>
-<p>一天又这样过去了…….</p>
-<h2 id="2024-7-28"><a href="#2024-7-28" class="headerlink" title="2024&#x2F;7&#x2F;28"></a>2024&#x2F;7&#x2F;28</h2><p>起晚了，一起床就去看公布的测例。果然，比较刁难。努力了一天，最后也就700G，隔壁好强3.5T，没办法，真想不到怎么优化的，明天再肝一天，放松了。不过今晚饶有兴趣，想重新搞搞个人主页。</p>
-<p>差不都弄好已经凌晨4点了，就是hexo+githubio+theme，主要一开始被ssh key搞得很麻烦。希望这个网站可以经常更新，晚安。</p>
-<h2 id="2024-7-29"><a href="#2024-7-29" class="headerlink" title="2024&#x2F;7&#x2F;29"></a>2024&#x2F;7&#x2F;29</h2><p>由于昨晚熬夜过于晚了（大抵五点多才睡觉）今天状态不是很对，十一点起床立马把PAC比赛剩下的事情全部做完了，这比赛终于结束了，有点折磨人。打算之后放松一段时间</p>
+            <h2 id="随机过程基本概念"><a href="#随机过程基本概念" class="headerlink" title="随机过程基本概念"></a>随机过程基本概念</h2><ul>
+<li><p>随机变量$X$是 从样本空间$\Omega$映射到实数轴$R$的函数($X(\omega)$)，对随机变量可以用<strong>分布函数</strong>，<strong>概率密度</strong>，<strong>各阶矩</strong>来刻画。</p>
+</li>
+<li><p><strong>随机过程</strong>研究多个随机变量之间的关系（线性-性，马尔可夫性，鞅）</p>
+</li>
+<li><p><strong>相关</strong>用<strong>归一化</strong>后的随机变量间<strong>积的期望</strong>来刻画 （不相关&#x3D;正交）</p>
+</li>
+<li><p>$$E(\bar{X}\bar{Y})&#x3D;0  &lt;&#x3D;&#x3D;&gt;   E(XY)&#x3D;E(X)E(Y)  | where \bar{X}&#x3D;归一化(X)$$</p>
+</li>
+<li><p>独立强于不相关</p>
+</li>
+<li><p>将$E(XY)$视为$&lt;X,Y&gt;$,满足柯西不等式</p>
+</li>
+<li><p>随机向量相关矩阵满足 1.对称性 2.正定性</p>
+</li>
+<li><p>$X(\omega,t)$:随机过程；给定$\omega$得到一条<strong>样本轨道</strong>($\omega$可以省略)</p>
+</li>
+<li><p>对于<strong>随机过程</strong>取<strong>不同时间</strong>所得到的<strong>随机变量</strong>依然可以进行<strong>相关分析</strong>，性质类似（对称，正定，柯西）。</p>
+<p>稳定性(依赖于不同的统计性质)，我们现在考虑宽平稳$w.w.s$,随机过程$X(t)$满足如下：</p>
+<ol>
+<li>​	$$E(X(t)) &#x3D; const$$</li>
+<li>$$R_x(t+\tau,s+\tau) &#x3D; R_x(t,s) $$</li>
+</ol>
+</li>
+<li><p>b更本质；随机过程时延相关不变性</p>
+</li>
+</ul>
 
         </div>
 
@@ -261,7 +303,7 @@
                 <span class="tag">
                     
                     
-                        <a href="/tags/%E6%97%A5%E8%AE%B0/"># 日记</a>
+                        <a href="/tags/%E6%95%B0%E5%AD%A6/"># 数学</a>
                     
                         
                 </span>
@@ -274,8 +316,8 @@
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2024/07/29/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B/">随机过程</a>
             
+            <a class="next" rel="next" href="/2024/07/29/Diary/">Diary</a>
             
         </section>
 
